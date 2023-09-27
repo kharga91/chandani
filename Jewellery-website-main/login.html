@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Login Page</title>
+    <style>
+      /* Reset some default styles */
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Background color */
+      body {
+        background-color: #f1f1f1;
+        /* Light gray background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Login box container */
+      .login-container {
+        background-color: #fff;
+        /* White background for the box */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+      }
+
+      /* Login form styling */
+      .login-form {
+        margin-top: 20px;
+      }
+
+      /* Input fields */
+      .form-input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      /* Login button */
+      .login-button {
+        background-color: #3498db;
+        /* Blue background color */
+        color: #fff;
+        /* White text color */
+        padding: 10px 20px;
+        /* Padding around the text */
+        border: none;
+        /* Remove the border */
+        border-radius: 4px;
+        /* Rounded corners */
+        cursor: pointer;
+        /* Cursor changes to a pointer on hover */
+      }
+
+      /* Hover effect on the login button */
+      .login-button:hover {
+        background-color: #2980b9;
+        /* Darker blue on hover */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form class="login-form">
+        <input type="text" class="form-input" placeholder="Username" required>
+        <input type="password" class="form-input" placeholder="Password" required>
+        <button class="login-button">Login</button>
+      </form>
+    </div>
+  </body>
+
+</html>
